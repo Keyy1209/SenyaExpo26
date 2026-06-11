@@ -319,6 +319,31 @@ nav a.active {
 
 }
 
+/* FOOTER */ 
+
+footer{
+    background:#A2D7FA;
+    padding:60px;
+}
+
+.footer-grid{
+    display:grid;
+    grid-template-columns:2fr 1fr 1fr;
+    gap:40px;
+}
+
+footer h3{
+    color:#126AD6;
+    margin-bottom:15px;
+}
+
+footer p,
+footer a{
+    color:#126AD6;
+    text-decoration:none;
+    line-height:1.8;
+}
+
 /* RESPONSIVE */
 
 @media(max-width:900px){

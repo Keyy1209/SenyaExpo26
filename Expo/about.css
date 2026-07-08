@@ -17,7 +17,7 @@ body {
 
 /* --- MENÚ DE NAVEGACIÓN UNIFICADO --- */
 header {
-    display: flex;
+   display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 15px 20px; 
@@ -91,7 +91,6 @@ nav a.active {
     background-color: #e08597;
     transform: translateY(-1px);
 }
-
 /* --- CONTENEDOR PRINCIPAL AZUL --- */
 .main-container {
     background-color: #9cd3ff;

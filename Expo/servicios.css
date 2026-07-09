@@ -18,67 +18,81 @@ body{
 ========================= */
 
 header{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:15px 20px;
-    width:95%;
-    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px; 
+    max-width: 95%;
+    margin: 0 auto;
 }
 
-.logo{
-    font-size:32px;
-    font-weight:700;
-    color:#126AD6;
+.logo {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1d6ed3;
+    letter-spacing: 1px;
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
 }
 
-.logo-y{
-    position:relative;
+.logo-y {
+    font-family: 'Quicksand', sans-serif;
+    position: relative;
+    display: inline-block;
 }
 
-.logo-y::after{
-    content:'';
-    position:absolute;
-    top:-4px;
-    left:50%;
-    transform:translateX(-50%);
-    width:10px;
-    height:10px;
-    background:#F497A9;
-    border-radius:50%;
+.logo-y::after {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+    background-color: #f497a9;
+    border-radius: 50%;
 }
 
-nav{
-    display:flex;
-    gap:35px;
+nav {
+    display: flex;
+    gap: 35px;
+    align-items: center;
 }
 
-nav a{
-    text-decoration:none;
-    color:#222;
-    font-weight:500;
-    transition:.3s;
+nav a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 500;
+    font-size: 16px;
+    transition: color 0.3s;
 }
 
-nav a:hover,
-nav a.active{
-    color:#126AD6;
+nav a.active {
+    color: #1d4ed8; 
+    border-bottom: 2px solid #1d4ed8;
+    padding-bottom: 4px;
 }
 
-.btn-help{
-    background:#F497A9;
-    color:white;
-    border:none;
-    padding:10px 24px;
-    border-radius:10px;
-    cursor:pointer;
-    transition:.3s;
+.btn-help {
+    background-color: #f497a9;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(244, 151, 169, 0.4);
+    transition: all 0.2s ease;
 }
 
-.btn-help:hover{
-    background:#e6879a;
+.btn-help:hover {
+    background-color: #e08597;
+    transform: translateY(-1px);
 }
-
+    
 /* =========================
    MAIN CONTAINER
 ========================= */
